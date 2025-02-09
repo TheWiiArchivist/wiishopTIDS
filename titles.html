@@ -77,8 +77,8 @@ a {
       border:3px solid #34BEED;
       margin:8px auto;
       max-width:90%;
-      height:99vh;
-      max-height:99vh;
+      height:98vh;
+      max-height:98vh;
       overflow:auto;
       padding:5px;
     }
@@ -101,6 +101,8 @@ a {
     }
     #topoftitles button {
       display:inline-block;
+      margin-left:4px;
+      margin-right:4px;
     }
 
     button {
@@ -170,19 +172,20 @@ its just font sizes!1!1 i didnt steal!!!
 
   </style>
 </head>
-<body>
+<body >
   <div id="wiishoptitleimages">
 
     <center>
 
       <div id="topoftitles">
-       <p>Welcome to my wii shop channel titleid and image collection!</p>
-       <hr style="margin-bottom:3px;">
+       <h1>Welcome to my wii shop channel titleid and image collection!</h1>
+       <hr style="margin-top:2px; margin-bottom:2px; margin-left:auto; margin-right:auto; width:480px;">
        <form action="javascript:searchWebsite();">
         <input id="searchInput" type="text" placeholder="Search by TitleID">
         <input type="submit" required value="Search" id="submithe">
        </form>
-       <button onclick="playbgm();">Play BGM</button>
+       <button onclick="playbgm();" style="margin-top:8px;">Play BGM</button>
+       <button onclick="pausebgm();">Pause BGM</button>
        <a href="#bottomoftitles">
        <button>Scroll to bottom</button>
       </a>
@@ -206,16 +209,70 @@ function searchWebsite() {
 }
 function playbgm() {
   shoppingBGM.play();
+  higherbgm();
 }
+function pausebgm() {
+  lowerbgm();
+}
+
+// main bgm volume handler
+
+function lowerbgm() {
+    shoppingBGM.volume=0.8;
+    setTimeout(lowerbgm2,90);
+}
+function lowerbgm2() {
+    shoppingBGM.volume=0.6;
+    setTimeout(lowerbgm3,90);
+}
+
+function lowerbgm3() {
+    shoppingBGM.volume=0.4;
+    setTimeout(lowerbgm4,90);
+}
+
+function lowerbgm4() {
+    shoppingBGM.volume=0.2;
+    setTimeout(lowerbgm5,90);
+    shoppingBGM.pause();
+}
+
+function lowerbgm5() {
+    shoppingBGM.volume=0.0;
+}
+
+function higherbgm() {
+    shoppingBGM.volume=0.2;
+    setTimeout(higherbgm2,90);
+}
+function higherbgm2() {
+    shoppingBGM.volume=0.4;
+    setTimeout(higherbgm3,90);
+}
+
+function higherbgm3() {
+    shoppingBGM.volume=0.6;
+    setTimeout(higherbgm4,90);
+}
+
+function higherbgm4() {
+    shoppingBGM.volume=0.8;
+    setTimeout(higherbgm5,90);
+}
+
+function higherbgm5() {
+    shoppingBGM.volume=1.0;
+}
+
        </script>
 
       </div>
 
-  <div id="titleimagebox"><p id="firsttitle"> 0001000048415A41</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/0001000048415A41/FFFD0000" title=" 0001000048415A41"></div>
-  <div id="titleimagebox"><p> 00010000534F5545</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F5545/FFFD0000" title=" 00010000534F5545"></div>
-  <div id="titleimagebox"><p> 00010000534F554A</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F554A/FFFD0000" title=" 00010000534F554A"></div>
-  <div id="titleimagebox"><p> 00010000534F554B</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F554B/FFFD0000" title=" 00010000534F554B"></div>
-  <div id="titleimagebox"><p> 00010000534F5550</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F5550/FFFD0000" title=" 00010000534F5550"></div>
+  <div id="titleimagebox"><p id="firsttitle"> 0001000048415A41</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/0001000048415A41/FFFD0000" title="Photo Channel (JPN)"></div>
+  <div id="titleimagebox"><p> 00010000534F5545</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F5545/FFFD0000" title=" Zelda Save Data Update Channel (US)"></div>
+  <div id="titleimagebox"><p> 00010000534F554A</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F554A/FFFD0000" title=" Zelda Save Data Update Channel (JPN)"></div>
+  <div id="titleimagebox"><p> 00010000534F554B</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F554B/FFFD0000" title=" Zelda Save Data Update Channel ()"></div>
+  <div id="titleimagebox"><p> 00010000534F5550</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010000534F5550/FFFD0000" title=" Zelda Save Data Update Channel (UK)"></div>
   <div id="titleimagebox"><p> 0001000143393345</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/0001000143393345/FFFD0000" title=" 0001000143393345"></div>
   <div id="titleimagebox"><p> 0001000143393350</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/0001000143393350/FFFD0000" title=" 0001000143393350"></div>
   <div id="titleimagebox"><p> 0001000143393445</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/0001000143393445/FFFD0000" title=" 0001000143393445"></div>
@@ -2312,7 +2369,7 @@ function playbgm() {
   <div id="titleimagebox"><p> 00010001574B4945</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010001574B4945/FFFD0002" title=" 00010001574B4945"></div>
   <div id="titleimagebox"><p> 00010001574B4950</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010001574B4950/FFFD0002" title=" 00010001574B4950"></div>
   <div id="titleimagebox"><p> 00010001574B4A45</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010001574B4A45/FFFD0000" title=" 00010001574B4A45"></div>
-  -->
+
   <div id="titleimagebox"><p> 00010001574B4B45</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010001574B4B45/FFFD0002" title=" 00010001574B4B45"></div>
   <div id="titleimagebox"><p> 00010001574B4B4A</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010001574B4B4A/FFFD0002" title=" 00010001574B4B4A"></div>
   <div id="titleimagebox"><p> 00010001574B4B50</p><img id="titleidimg" loading="lazy"  src="/wiishopTIDS/ccs/00010001574B4B50/FFFD0000" title=" 00010001574B4B50"></div>
@@ -2824,6 +2881,15 @@ function playbgm() {
 
   <br><br>
   <div id="bottomoftitles">
+    <style>
+      #bottomoftitles {
+        width:100%;
+      height:fit-content;
+      background-color:rgb(198, 251, 255);
+      padding-bottom:5px;
+      margin-bottom:2px;
+      }
+    </style>
 
   <h3>
     <span style="color:#d46c64;">You may notice that the final list above has only a few games, not a full list.. <br> that is because 2 folders exist with tons of title images:</span>
@@ -2846,6 +2912,16 @@ function playbgm() {
   </div>
 
     </center>
+</div>
+
+<br><br>
+<div id="footer" style="color:#0094c5; text-align:center; font-size:23px; border-radius:8px; background-color:#32323233; width:100%; display:block; height:100px;">
+<a href="https://chrisplayzyt.github.io" target="_blank">Website by ChrisplayzYT/BLOX</a>
+<hr>
+<a href="https://www.youtube.com/watch?v=5ADG8laByuk" target="_blank">Check out this video for the US titles prices :)</a>
+<br>
+<a href="https://www.youtube.com/watch?v=r-BszUb8fNg" target="_blank">Check out this video for the JPN titles prices :)</a>
+
 </div>
 </body>
 </html>
