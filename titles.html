@@ -17,7 +17,7 @@
   <script>
    if (/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) {
   // true for mobile device
-  alert("Title ids will not show on img hover. Please switch to a computer for a better experience.");
+  alert("The search function and some content may not work properly on mobile. Please switch to a computer for a better experience.");
 } else {
 }
     
@@ -79,7 +79,8 @@ a {
       max-width:90%;
       height:98vh;
       max-height:98vh;
-      overflow:auto;
+      overflow-y:auto;
+      overflow-x:hidden;
       padding:5px;
     }
     #titleimagebox {
