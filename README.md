@@ -9,7 +9,7 @@ this is to have the image of every game inside the ccs folder in the wii shop ch
 NOTICE: THE UNKNOWNONES FOLDER IS INCOMPLETE.
 
 <br><hr><br>
-<a href="https://github.com/ChrisplayzYT/wiishopTIDS/tree/main">Click here to go to the ccs folder only branch (a branch with just the title images folder, nothin else)</a>
+<a href="https://github.com/ChrisplayzYT/wiishopTIDS/tree/ccs-only">Click here to go to the ccs folder only branch (a branch with just the title images folder, nothin else)</a>
 <br>
 <h2>OR</h2>
 <a href="https://chrisplayzyt.github.io/wiishopTIDS/">Click here to go to the wiishoptids website</a>
