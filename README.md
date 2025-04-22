@@ -12,4 +12,4 @@ NOTICE: THE UNKNOWNONES FOLDER IS INCOMPLETE.
 <a href="https://github.com/ChrisplayzYT/wiishopTIDS/tree/ccs-only">Click here to go to the ccs folder only branch (a branch with just the title images folder, nothin else)</a>
 <br>
 <h2>OR</h2>
-<a href="https://chrisplayzyt.github.io/wiishopTIDS/">Click here to go to the wiishoptids website</a>
+<a href="https://chrisplayzwii.github.io/wiishopTIDS/">Click here to go to the wiishoptids website</a>
