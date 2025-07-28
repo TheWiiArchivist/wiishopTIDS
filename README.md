@@ -1,9 +1,9 @@
-# This is a ccs folder only version, for those who want just the title images with none of the extra stuff.
+# This is a ccs folder only version, for those who want just the title images with no html. (For downloading the zip ig)
 
-- Please credit me (ChrisplayzWii) cuz i spent a long time uploading all this to github...
+- This took forever to upload 😭
 
 <br><hr><br>
-<a href="https://github.com/ChrisplayzYT/wiishopTIDS/tree/main">Click to return to the main branch</a>
+<a href="https://github.com/TheWiiArchivist/wiishopTIDS/tree/main">Click to return to the main branch</a>
 <br>
 <h2>OR</h2>
-<a href="https://chrisplayzyt.github.io/wiishopTIDS/">Click here to go to the wiishoptids website</a>
+<a href="https://thewiiarchivist.github.io/wiishopTIDS/">Click here to go to the wiishoptids website</a>
