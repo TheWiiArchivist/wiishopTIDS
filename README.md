@@ -1,5 +1,5 @@
 # wiishopTIDS
-Wii Shop titleids repository (no downloads!1!1)
+Wii Shop titleids (ccs folder/title images) repository (no downloads!1!1)
 
 [[ NOTE TO ME: DO NOT COMBINE CCS-ONLY AND MAIN I SWEAR TO GOD YOU WILL RUIN EVERYTHING DUMMY ]]
 
