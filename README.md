@@ -1,5 +1,5 @@
 # wiishopTIDS
-Wii Shop titleids (ccs folder/title images) repository (no downloads!1!1)
+Wii Shop titleids (ccs folder/title images) repository (NO DOWNLOAD LINKS PROVIDED!!!) (its just title images anyway lol)
 
 this is to have the image of every game inside the ccs folder in the wii shop channel easily visible, no more needing to search up the title id to know what game it is!
 
